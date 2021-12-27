@@ -1,0 +1,21 @@
+.active {
+    font-weight: bold;
+}
+.nav-link {
+    transition: .5s;
+}
+.nav-link:hover {
+    opacity: .6;
+}
+.navbar-toggler {
+    padding: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.btn {
+    transition: 1s;
+}
+.btn:hover {
+    opacity: .8;
+}

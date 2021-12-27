@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+            <div class="container">
+                <!-- Dentro del a también podríamos poner una img -->
+                <a class="navbar-brand text-light fw-bold" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon pt-1">
+                        <img class="w-75" src="img/icons/bars-solid.svg" alt="Menú">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="hero rounded-1 bg-success d-flex flex-column justify-content-center align-items-center vh-100">
+                <h1 class="fw-bold text-light">Mi web con Bootstrap</h1>
+                <h2 class="text-light">Ejercicio usando este framework</h2>
+            </section>
+            <section class="cards my-4">
+                <div class="row">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body bg-dark text-light rounded-1">
+                                <h5 class="card-title fw-bold">Tarjeta 1</h5>
+                                <p class="card-text">Esto es un ejemplo rápido y sencillo con un título y un texto de relleno para nuestra nueva tarjeta.</p>
+                                <a href="#" class="btn btn-primary bg-success border-success">Ir aquí</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body bg-dark text-light rounded-1">
+                                <h5 class="card-title fw-bold">Tarjeta 2</h5>
+                                <p class="card-text">Esto es un ejemplo rápido y sencillo con un título y un texto de relleno para nuestra nueva tarjeta.</p>
+                                <a href="#" class="btn btn-primary bg-success border-success">Ir aquí</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body bg-dark text-light rounded-1">
+                                <h5 class="card-title fw-bold">Tarjeta 3</h5>
+                                <p class="card-text">Esto es un ejemplo rápido y sencillo con un título y un texto de relleno para nuestra nueva tarjeta.</p>
+                                <a href="#" class="btn btn-primary bg-success border-success">Ir aquí</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img class="img-fluid rounded-1" src="img/forest.jpg" alt="Bosque">
+                    </div>
+                    <div class="col-sm-4">
+                        <form action="#" class="d-flex flex-column justify-content-center h-100 mt-3 mt-sm-0">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <input type="text" class="form-control bg-dark text-light" id="exampleFormControlInput1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput2" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control bg-dark text-light" id="exampleFormControlInput2" placeholder="nombre@ejemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                <textarea class="form-control bg-dark text-light" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button class="btn btn-primary bg-success border-success" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="text-center mt-5 mb-1">2021 Nuria</footer>
+</body>
+</html>
